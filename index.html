@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
           <a href="./index.html" class="logo link">
             <span class="logoaccent">Web</span>Studio</a
           >
@@ -32,7 +32,7 @@
         </nav>
         <ul class="auth-nav list">
           <li>
-            <a href="mailto:info@devstudio.com" class="link list"
+            <a href="mailto:info@devstudio.com" class="link list auth-nav-mail"
               >info@devstudio.com</a
             >
           </li>
@@ -45,14 +45,11 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">
-            Ефективні рішення для <br />
-            вашого бізнесу
-          </h1>
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-button">Замовити послугу</button>
         </div>
       </section>
-      <section class="section">
+      <section class="section features">
         <div class="container">
           <h2 class="section-title visually-hidden">Переваги</h2>
           <ul class="feature-list list">
@@ -86,7 +83,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section works">
         <div class="container">
           <h2 class="section-title work-title">Чим ми займаємося</h2>
           <ul class="work-list list">
@@ -112,6 +109,7 @@
           <ul class="team-list list">
             <li>
               <img
+                class="team-list-img"
                 src="./images/demianenko.jpg"
                 alt="хлопець в бордовій сорочці"
                 width="270"
@@ -121,6 +119,7 @@
             </li>
             <li>
               <img
+                class="team-list-img"
                 src="./images/repina.jpg"
                 alt="Дівчина в окулярах"
                 width="270"
@@ -130,6 +129,7 @@
             </li>
             <li>
               <img
+                class="team-list-img"
                 src="./images/tarasov.jpg"
                 alt="хлопець в білій сорочці"
                 width="270"
@@ -139,6 +139,7 @@
             </li>
             <li>
               <img
+                class="team-list-img"
                 src="./images/ermakov.jpg"
                 alt="хлопець в окулярах"
                 width="270"
@@ -153,7 +154,7 @@
     <footer class="footer">
       <div class="container">
         <a href="./index.html" class="logo link">
-          <span class="logoaccent">Web</span> Studio
+          <span class="logoaccent">Web</span>Studio
         </a>
         <address>
           <ul class="footer-list list">

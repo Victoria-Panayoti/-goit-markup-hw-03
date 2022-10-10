@@ -194,6 +194,10 @@ body {
 /* Features */
 .feature-list {
   display: flex;
+  gap: 30px;
+}
+.feature-list>li{
+  width: 270px;
 }
 .visually-hidden {
   position: absolute;
@@ -220,11 +224,13 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  
   color: var(--primary-text-color);
 }
 
 /* Works */
 .works {
+  padding-top: 0;
 }
 .work-title {
   font-weight: 700;
@@ -258,8 +264,9 @@ body {
 .team-list > li {
   background-color: var(--bcg-main);
 }
-.team-list-img {
-  margin-bottom: 30px;
+.team-sign{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-list h3 {
   font-weight: 500;
@@ -357,17 +364,19 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--text-white);
-  display: inline-block;
+  display: block;
+  margin-right: 0;
   margin-bottom: 20px;
 }
 .footer-list .address {
   display: inline-block;
+}
+.footer-list .footer-list-item:not(:last-child){
   margin-bottom: 9px;
 }
 .footer-list .mail {
   color: var(--footer-mail-tel);
   display: inline-block;
-  margin-bottom: 9px;
 }
 .footer-list .tel {
   color: var(--footer-mail-tel);
